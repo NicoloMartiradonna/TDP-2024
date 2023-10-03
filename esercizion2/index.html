@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>modulo di rivelazione temperatura</p>
+
+    <form action="./static/ex.php" method="get">
+            <p><strong>LOCALITA'</strong><br>
+            <input type="text" name="localita"></p>
+          
+            <p><strong>DATA</strong><br>
+            <input type="text" name="data"></p>
+          
+            <p><strong>ORA</strong><br>
+            <input type="text" name="ora"></p>
+          
+            <p><strong>TIPO RILEVAZIONE</strong><br>
+            <input type="radio" name="rivelazione" value="OFC"> OFC
+            <input type="radio" name="rivelazione" value="AMB"> AMB
+            <input type="radio" name="rivelazione" value="DRA"> DRA</p>
+          
+            <p><strong>UMIDITA'</strong><br>
+            <select name="umidita">
+              <option value="ASSOLUTA">ASSOLUTA</option>
+              <option value="RELATIVA">RELATIVA</option>
+            </select></p>
+          
+            <p><strong>CLIMA ATTUALE</strong><br>
+            <select name="clima">
+              <option value="PIOGGIA">PIOGGIA</option>
+              <option value="SERENO">SERENO</option>
+              <option value="VENTOSO">VENTOSO</option>
+              <option value="UMIDO">UMIDO</option>
+              <option value="FOSCHIA">FOSCHIA</option>
+            </select></p>
+          
+            <p><strong>ABITUDINE</strong><br>
+            <input type="text" name="abitudine"></p>
+          
+            <p><input type="submit" value="Invia"></p>
+          </form>
+          
+          </body>
+          </html>
